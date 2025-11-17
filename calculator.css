@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: o;
+}
+
+.container {
+    
+    height: fit-content;
+    width: fit-content;
+    background-color: cornflowerblue;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: black;
+    box-shadow: 5px 5px 5px rgb(65, 65, 65);
+}
+
+input[type=text] {
+    width: 400px;
+    height: 100px;
+    font-weight: 700;
+    font-size: 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: right;
+    padding-right: 15px;
+
+}
+
+.button-values {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 20px;
+    gap: 10px;
+
+
+
+}
+
+button {
+    height: 80px;
+    width: 80px;
+    border-radius: 20%;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    cursor: pointer;
+    border: black;
+    box-shadow: 2px 2px 3px rgb(81, 80, 80);
+}
+
+.plus,.minus,.mul,.division,.clear{
+    background-color: rgb(237, 227, 89);
+    color: black;
+}
+
+button:hover{
+        background-color: rgb(80, 80, 80);
+
+}
+
+.plus:hover{
+       background-color: rgb(255, 238, 0);
+
+}
+
+.minus:hover{
+background-color: rgb(255, 238, 0);
+}
+
+.mul:hover{
+background-color: rgb(255, 238, 0);
+}
+.division:hover{
+background-color: rgb(255, 238, 0);
+}
+.clear:hover{
+background-color: rgb(255, 238, 0);
+}
