@@ -11,3 +11,7 @@ function calculate() {
 function cleardisplay() {
     display.value=" ";
 }
+
+function backspace() {
+    display.value = display.value.slice(0, -1);
+}
